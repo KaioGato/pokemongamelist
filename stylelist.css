@@ -1,0 +1,107 @@
+* {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+ /*
+ background-image: url("https://w0.peakpx.com/wallpaper/416/872/HD-wallpaper-pokeball-francisco-clean-minimal-pokemon.jpg");
+ */
+ background-color: rgb(63, 63, 63);
+ background-repeat: no-repeat;
+ background-position: top center;
+ background-size: cover;
+}
+body *{
+  color: white;
+}
+#container{
+  width: 90%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 20px;
+  margin: 56px auto 0px;
+  padding: 0 24px;
+}
+#profile{
+  text-align: center;
+  padding: 24px;
+}
+#profile img{
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+#profile p {
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+margin-top: 4px;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+}
+ul button{
+  font-size: 30px;
+  background:rgba(17, 17, 17, 0.7);
+  border: none;
+  border-radius: 10px;
+
+  transition: all 0.3s;
+}
+ul button:hover{
+  background:rgba(180, 180, 180, 0.87);
+  
+}
+
+ul li {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  padding: 10px 10px;
+
+  background: rgba(233, 233, 233, 0.1);
+  border-radius: 10px;
+
+  transition: all 0.3s;
+}
+ul li:hover{
+  background: rgba(150, 150, 150, 0.5);
+}
+
+ul li div{
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ul li div img{
+  width: 100px;
+  height: 100px;
+}
+
+
+ul li a{
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+
+  transition: 0.3s;
+}
+ul li a:hover{
+  background-color: rgb(60, 60, 60);
+  
+}
