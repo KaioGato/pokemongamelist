@@ -61,7 +61,7 @@ ul button:hover{
 }
 
 ul li {
-  display: flex;
+  display: none;
   flex-direction: row;
 
   align-items: center;
