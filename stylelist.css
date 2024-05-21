@@ -4,6 +4,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+header{
+  background: gray;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+header img{
+  margin: 10px;
+  width: 70px;
+}
+header p {
+  font-size: 20px;
+  margin: 10px;
+}
+
 
 body {
  /*
