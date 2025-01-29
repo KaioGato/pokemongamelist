@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 header{
-  background: gray;
+  background: black;
 
   display: flex;
   flex-direction: column;
