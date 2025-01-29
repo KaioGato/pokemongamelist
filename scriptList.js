@@ -1,4 +1,4 @@
- eita
+ 
  function gen1games() {
            var elementos = document.getElementsByClassName("1genGames");
         for (var i = 0; i < elementos.length; i++) {
