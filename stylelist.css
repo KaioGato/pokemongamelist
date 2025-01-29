@@ -62,8 +62,20 @@ ul{
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap:5px;
+  gap: 1px;
 }
+
+ul h1{
+  margin-bottom: 10px;
+  padding: 7px;
+
+  background: rgba(22, 22, 22, 0.7); ;
+  border: none;
+  border-radius: 10px;
+  
+  text-align: center;
+}
+
 ul button{
   font-size: 30px;
   background:rgba(17, 17, 17, 0.7);
@@ -125,4 +137,11 @@ ul li a:hover{
 ul li div img{
   width: 130px;
   height: auto;
+}
+
+footer{
+  background: rgb(86, 86, 86);
+}
+footer div{
+  padding: 20px;
 }
